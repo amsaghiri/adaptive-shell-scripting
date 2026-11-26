@@ -1,0 +1,16 @@
+# Extended regular expressions. A candidate matching any of them is rejected.
+(^|[^A-Za-z])sudo([^A-Za-z]|$)
+(^|[^A-Za-z])eval([^A-Za-z]|$)
+(^|[^A-Za-z])exec([^A-Za-z]|$)
+rm[[:space:]]+-[A-Za-z]*r[A-Za-z]*f?[[:space:]]+/([[:space:]]|$)
+(curl|wget)[^|]*\|[[:space:]]*(ba)?sh
+chmod[[:space:]]+(-R[[:space:]]+)?[0-7]*7[0-7]{0,2}([[:space:]]|$)
+>[[:space:]]*/dev/(sd|nvme|vd)
+(^|[^A-Za-z])dd[[:space:]]+if=
+mkfs
+:\(\)[[:space:]]*\{
+/etc/(passwd|shadow|sudoers)
+\.ssh/
+(^|[^A-Za-z])(nc|ncat|netcat)([^A-Za-z]|$)
+base64[[:space:]]+(-d|--decode)
+&[[:space:]]*$

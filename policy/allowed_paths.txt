@@ -1,0 +1,9 @@
+# Absolute paths a payload may mention, one prefix per line.
+# Anything else is rejected by the policy stage. Edit for your site.
+/tmp
+/var/backups
+/var/log
+/srv
+/data
+/proc/loadavg
+/dev/null

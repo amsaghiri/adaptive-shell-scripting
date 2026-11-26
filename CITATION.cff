@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Adaptive Shell Scripting with Quine Programs and Large Language Models"
+authors:
+  - family-names: Saghiri
+    given-names: Ali Mohammad
+    affiliation: William Paterson University
+preferred-citation:
+  type: conference-paper
+  title: "Adaptive Shell Scripting with Quine Programs and Large Language Models"
+  authors:
+    - family-names: Saghiri
+      given-names: Ali Mohammad
+  collection-title: "2026 International Conference on Current Research in Artificial Intelligence and Data Science (ICCRAIDS)"
+  year: 2026
+  start: 1
+  end: 7
+  doi: "10.1109/ICCRAIDS67816.2026.11519702"
