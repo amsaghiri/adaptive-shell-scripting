@@ -208,6 +208,9 @@ A. M. Saghiri and N. Wang, "Self-Evolving Programs: A Novel Approach Leveraging 
 Programs," *2024 International Conference on Computing, Internet of Things and Microwave Systems
 (ICCIMS)*, 2024. doi: [10.1109/ICCIMS61672.2024.10690672](https://doi.org/10.1109/ICCIMS61672.2024.10690672)
 
+That paper introduces the general self-evolving framework. A prototype of it, applied to a
+selfish-mining defense, is in [self-evolving-programs](https://github.com/amsaghiri/self-evolving-programs).
+
 ## Citation
 
 ```bibtex
